@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="234.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Blad">
+   <children>
+      <Text layoutX="32.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nie można usunąć, dopóki jest kluczem obym w innej tabeli!" />
+   </children>
+</AnchorPane>

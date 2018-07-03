@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="288.0" prefWidth="299.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CrMecz">
+   <children>
+      <Label layoutX="43.0" layoutY="25.0" text="Data" />
+      <TextField fx:id="nazwa" layoutX="88.0" layoutY="21.0" />
+      <Button fx:id="btn" layoutX="126.0" layoutY="238.0" mnemonicParsing="false" onAction="#create" text="Dodaj" />
+      <ChoiceBox fx:id="boxS" layoutX="88.0" layoutY="79.0" prefWidth="150.0" />
+      <Label layoutX="38.0" layoutY="83.0" text="Boisko" />
+      <ChoiceBox fx:id="box" layoutX="88.0" layoutY="132.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="box2" layoutX="88.0" layoutY="178.0" prefWidth="150.0" />
+      <Label layoutX="29.0" layoutY="136.0" text="Drużyna 1" />
+      <Label layoutX="29.0" layoutY="182.0" text="Drużyna 2" />
+      <Label layoutX="25.0" layoutY="38.0" text="rrrr-MM-dd" />
+   </children>
+</AnchorPane>
